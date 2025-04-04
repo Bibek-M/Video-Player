@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  background-color: gray;
+}
+
+.video-container {
+  text-align: center;
+  
+}
+
+#video-player {
+  /* display: block; */
+  margin-bottom: 10px;
+  width: 95vw;
+  height: 80vh;
+  /* width: 100%; */
+}
+
+.controls {
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  margin-left: 10px;
+}
+#play-pause{
+    background-color: chartreuse;
+    border-radius: 10%;
+    border: none;
+}
+#stop{
+     background-color: rgb(255, 6, 23);
+    border-radius: 10%;
+    border: none;
+    font-weight: 700;
+}
